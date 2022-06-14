@@ -18,7 +18,7 @@
 
 
 
-## 1. A survey of data mining and knowledge discovery process models and methodologies
+## A survey of data mining and knowledge discovery process models and methodologies
 [Paper](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C2EC780B41545D44AB7F8F7BCBA8D982/S0269888910000032a.pdf/div-class-title-a-survey-of-data-mining-and-knowledge-discovery-process-models-and-methodologies-div.pdf)
 
 1: This paper presents descriptions, advantages, and disadvantages of 14 popular data
@@ -73,7 +73,7 @@ limited." International Journal of Production Economics 165 (2015): 293-306.
 [2] Martínez-Plumed, Fernando, et al. "CRISP-DM twenty years later: From data mining processes to data
 science trajectories." IEEE Transactions on Knowledge and Data Engineering (2019).
 
-## 2. Map-Reduce for Machine Learning on Multicore
+## Map-Reduce for Machine Learning on Multicore
 [Paper](https://proceedings.neurips.cc/paper/2006/file/77ee3bc58ce560b86c2b59363281e914-Paper.pdf)
 
 1: The main motivation from this paper begins with the problem of there not being any
@@ -133,7 +133,7 @@ data summarization." Data & Knowledge Engineering 136 (2021): 101930.
 IEEE Journal on Selected Areas in Communications (2021)
 
 
-## 3. A Few Useful Things to Know About Machine Learning
+## A Few Useful Things to Know About Machine Learning
 [Paper](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
 
 1: The main motivation of this article is to summarize sound wisdom and beliefs
@@ -191,7 +191,7 @@ and transfer learning for plant disease classification." Computers and electroni
 (2018): 46-53.
 
 
-## 4. A Survey of Discretization Techniques: Taxonomy and Empirical Analysis in Supervised Learning
+## A Survey of Discretization Techniques: Taxonomy and Empirical Analysis in Supervised Learning
 [Paper](https://ieeexplore.ieee.org/document/6152258)
 
 1: Discretization techniques transform continuous/numerical attributes to
@@ -249,7 +249,7 @@ International Conference on Learning and Intelligent Optimization. Springer, Cha
 [2] Thaiphan, Rattayagon, and Thimaporn Phetkaew. "Comparative analysis of discretization algorithms on decision
 tree." 2018 IEEE/ACIS 17th International Conference on Computer and Information Science (ICIS). IEEE, 2018.
 
-## 5. Data clustering: 50 years beyond K-means
+## Data clustering: 50 years beyond K-means
 [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0167865509002323)
 
 1: Clustering methods are unsupervised techniques that wish to group data according to
@@ -301,7 +301,7 @@ and implementation in Mathematica." Tutorials in Quantitative Methods for Psycho
 Transactions on pattern analysis and machine intelligence 22.1 (2000): 4-37.
 
 
-## 6. An introduction to ROC analysis
+## An introduction to ROC analysis
 [Paper](https://www.sciencedirect.com/science/article/pii/S016786550500303X?casa_token=UDNHd1Fhnw4AAAAA:hoE5W_S_DlsrabMgWZYsGEpvzIcwIgWUi28xcnF483YAIon6Dh0Ql46bob74QOz3JhVjx45z)
 
 1: A receiver operating characteristic (ROC curve) graph is a simple plot that illustrates
@@ -356,7 +356,7 @@ optimism of the receiver operating characteristic curve in rare diseases." Journ
 [2] Brodersen, Kay Henning, et al. "The binormal assumption on precision-recall curves." 2010 20th
 International Conference on Pattern Recognition. IEEE, 2010.
 
-## 7. An Empirical Comparison of Supervised Learning Algorithms
+## An Empirical Comparison of Supervised Learning Algorithms
 [Paper](https://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml06.pdf)
 
 1: A receiver operating characteristic (ROC curve) graph is a simple plot that illustrates
@@ -411,7 +411,7 @@ optimism of the receiver operating characteristic curve in rare diseases." Journ
 [2] Brodersen, Kay Henning, et al. "The binormal assumption on precision-recall curves." 2010 20th
 International Conference on Pattern Recognition. IEEE, 2010.
 
-## 8. Making machine learning trustworthy
+## Making machine learning trustworthy
 [Paper](https://www.science.org/doi/10.1126/science.abi5052)
 
 
