@@ -5,7 +5,7 @@
 <!--ts-->
 
 - [Table of contents](#table-of-contents)
-- [A survey of data mining and knowledge discovery process models and methodologies](##1. A survey of data mining and knowledge discovery process models and methodologies)
+- [A survey of data mining and knowledge discovery process models and methodologies](# A-survey-of-data-mining-and-knowledge-discovery-process-models-and-methodologies)
 - [With Conda](#with-conda)
 - [Optional](#optional)
 - [Usage](#usage)
