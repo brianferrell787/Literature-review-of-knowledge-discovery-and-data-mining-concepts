@@ -7,7 +7,7 @@
 
 ## 1. A survey of data mining and knowledge discovery process models and methodologies
 [Paper](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C2EC780B41545D44AB7F8F7BCBA8D982/S0269888910000032a.pdf/div-class-title-a-survey-of-data-mining-and-knowledge-discovery-process-models-and-methodologies-div.pdf)
-Review #1
+
 1: This paper presents descriptions, advantages, and disadvantages of 14 popular data
 mining and knowledge discovery methodologies, showing each method’s evolution as
 well as the history of these techniques and what is considered to be state of the art. It
@@ -28,7 +28,7 @@ the automation of data mining processes, Six-Sigma, etc.. Based on a comparative
 analysis of all the approaches, the authors create a newly refined data mining process
 that includes more specific phases than other approaches to avoid overlap (17
 subprocesses).
-2.1: Authors claim that CRISP-DM is not mature enough to deal with the complexity of
+\n 2.1: Authors claim that CRISP-DM is not mature enough to deal with the complexity of
 today's problems. They emphasize the need for it to address growing problems in
 relation to project management, organization, and quality.
 2.2: Authors claim that approaches involving automated data mining processes are,
