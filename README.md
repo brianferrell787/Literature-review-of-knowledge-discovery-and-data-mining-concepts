@@ -1,6 +1,23 @@
 # Survey-of-data-mining-concepts
 
+# Table of contents
 
+<!--ts-->
+
+- [Table of contents](#table-of-contents)
+- [A survey of data mining and knowledge discovery process models and methodologies](##1. A survey of data mining and knowledge discovery process models and methodologies)
+- [With Conda](#with-conda)
+- [Optional](#optional)
+- [Usage](#usage)
+- [A quick example](#a-quick-example)
+- [Experiment Tracking with Weights and Biases](#experiment-tracking-with-weights-and-biases)
+- [Current Pretrained Models](#current-pretrained-models)
+- [Contributors ✨](#contributors-)
+- [How to Contribute](#how-to-contribute)
+- [How to Update Docs](#how-to-update-docs)
+- [Acknowledgements](#acknowledgements)
+
+<!--te-->
 
 
 
