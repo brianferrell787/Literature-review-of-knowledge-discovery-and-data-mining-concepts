@@ -63,7 +63,6 @@ science trajectories." IEEE Transactions on Knowledge and Data Engineering (2019
 ## 2. Map-Reduce for Machine Learning on Multicore
 [Paper](https://proceedings.neurips.cc/paper/2006/file/77ee3bc58ce560b86c2b59363281e914-Paper.pdf)
 
-Review #2
 1: The main motivation from this paper begins with the problem of there not being any
 good frameworks for machine learning to take advantage of an increasing number of
 cores (processors) per chip. Authors point out that there are many parallel programming
@@ -116,6 +115,59 @@ transmission overhead.
 [1] Al-Amin, Sikder Tahsin, and Carlos Ordonez. "Efficient machine learning on data science languages with parallel
 data summarization." Data & Knowledge Engineering 136 (2021): 101930.
 
+1: The main motivation of this article is to summarize sound wisdom and beliefs
+surrounding machine learning. The author gives 12 insights and lessons on machine
+learning algorithms concerning their pitfalls, things we should focus on, as well as
+answers to common questions. It starts out by elaborating on classification models;
+what they are, examples, etc. Then it goes into how the concept of learning is broken
+down into three components: Representation, Evaluation, and Optimization. These
+components are the key to figuring out which algorithms to use since there are
+thousands. In addition, since it is not easy to figure out each of these components, the
+author touches on key issues, as the choices involving a machine learning project are at
+times even more important than the choice of learner. The key things touched on in this
+article are the following: size is not the only thing that matters when it comes to your
+dataset, the issues with overfitting, the curse of dimensionality, theoretical woes,
+importance of feature engineering, your training set size, importance of training multiple
+models, how correlation does not imply causation, and more. In conclusion, this useful
+article gives a review of some of the best practices when it comes to machine learning.
+
+
+2.1: Authors claim that a dumb algorithm with tons of data beats a clever one with
+modest amounts of data.
+
+
+2.2: Authors claim that one model is not enough, and that it is always best to test
+multiple random variations of different models and compare the performances of them.
+
+
+2.3: Authors claim that just because a function can be represented does not mean it can
+be learned.
+
+
+3: In slight disagreement with the first claim, the authors (Radja et. al) compare
+performances from four different algorithms across four datasets of varying sizes,
+classifying the diagnosis of diabetes. They trained an SVM model, Naive Bayes, J48
+tree, a Decision Table Algorithm, and found that no matter the size of the dataset, the
+SVM model did best, which would be a far more complex model in comparison to Naive
+Bayes. However, it is possible that the dataset sizes they are comparing are not
+“different” enough to really see any significant changes. On the other hand, Barbedo et
+al. are in agreement that the size of the dataset matters a lot when it comes to using
+more advanced algorithms; in fact, it is necessary to yield solid results. This is why
+when attempting to classify plant diseases using transfer learning and CNN models,
+they had to use techniques to augment more training data in order to fit the complexities
+of the models used. Without these techniques and additional robust tooling, a simpler
+model like Support Vector Machine, Multilayer Perceptron Neural Network or Decision
+Tree would most likely be best.
+
+
+[1] Radja, Melky, and Andi Wahju Rahardjo Emanuel. "Performance evaluation of supervised machine
+learning algorithms using different data set sizes for diabetes prediction." 2019 5th international
+conference on science in information technology (ICSITech). IEEE, 2019.
+
+
+[2] Barbedo, Jayme Garcia Arnal. "Impact of dataset size and variety on the effectiveness of deep learning
+and transfer learning for plant disease classification." Computers and electronics in agriculture 153
+(2018): 46-53.
 
 [2] Pu, Lingjun, et al. "Cost-efficient and Skew-aware Data Scheduling for Incremental Learning in 5G Networks."
 IEEE Journal on Selected Areas in Communications (2021)
@@ -124,6 +176,60 @@ IEEE Journal on Selected Areas in Communications (2021)
 ## 3. A Few Useful Things to Know About Machine Learning
 [Paper](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
 
+1: Discretization techniques transform continuous/numerical attributes to
+discrete/nominal ones in order to represent the data in a simplified concise manner. The
+main motivation of this paper is to survey these methods in order to reduce issues and
+confusion found in defining discretization properties as well as establishing a formal
+categorization method. The author's provide a theoretical approach by classifying
+properties pointed out in previous research, as well as an empirical one where they
+conduct supervised classification experiments with the most representative and newest
+discretizers, different classifiers, and a large number of data sets. For the experimental
+part of the paper, they use 30 discretizers, 6 classification methods, 40 datasets, and
+compare accuracy and Cohen’s kappa measures across all of the classification
+problems. The authors provide related work on improving and analyzing discretization
+techniques, a review of the criteria for building a discretization method, a discussion of
+their experimental framework and the results found within them. Their experiment was
+setup such that the discretization methods would be used on the 40 datasets, and then
+to evaluate the differences in performances they used the six classifiers (C4.5,
+DataSqueezer, KNN, Naive Bayes, PUBLIC, and Ripper) to measure the
+successfulness of the application. In conclusion, the authors observe they cannot label
+a single discretizer as the “best” because it depends on the problem at hand; however,
+this study gives the tools to help researchers find the most appropriate approach for
+their problem.
+
+
+2.1: Authors claim that classic discretizers such as EqualWidth, EqualFrequency, 1R,
+ID3, CADD, Bayesian, and Cluster Analysis are not as good as they should be,
+considering the improvements made on them over the years.
+
+
+2.2: Authors claim that FUSINTER, ChiMerge, CAIM, and Modified Chi2 offer excellent
+performances considering all types of classifiers.
+
+
+2.3: Authors claim that PKID, FFD are suitable methods for lazy and Bayesian learning
+and CACC, Distance, and MODL are good choices in rule induction learning.
+
+
+3: In agreement with claim 2.2 the authors (Tari et. al) compare various discretization
+techniques and their impact on a different type of classifier than the ones in the
+summarized paper above (Multi-Objective Classification Algorithm for Imbalanced data).
+The main objective was to determine which discretization technique helped with
+predicting bronchopulmonary cancer. They found ID3 seemed to be better suited for
+their problem (which is in disagreement with claim 2.1) but that FUSINTER and CAIM
+were still leading performers for at least 2 of their datasets. In addition, Thaiphan et. al
+ran a similar study as the proposed review paper on 20 data sets but just for decision
+trees and found that MDLP was the best overall followed by ChiMerge, FUSINTER;
+however, they found that Modified Chi2 and CAIM are not really suitable for Decision
+Trees.
+
+
+[1] Tari, Sara, et al. "Impact of the Discretization of VOCs for Cancer Prediction Using a Multi-Objective Algorithm."
+International Conference on Learning and Intelligent Optimization. Springer, Cham, 2020.
+
+
+[2] Thaiphan, Rattayagon, and Thimaporn Phetkaew. "Comparative analysis of discretization algorithms on decision
+tree." 2018 IEEE/ACIS 17th International Conference on Computer and Information Science (ICIS). IEEE, 2018.
 
 ## 4. A Survey of Discretization Techniques: Taxonomy and Empirical Analysis in Supervised Learning
 [Paper](https://ieeexplore.ieee.org/document/6152258)
