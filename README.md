@@ -1,8 +1,8 @@
 # Survey-of-data-mining-concepts
 
 Below describes a survey of literature surrounding knowledge discovery and data mining concepts, tools and methods. 
-Major Topics Covered: 
- 
+
+### Major Topics Covered: 
 - Knowledge discovery process 
 - Data 
 - Data preprocessing 
