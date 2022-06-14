@@ -11,7 +11,7 @@
 - [Data clustering: 50 years beyond K-means](#Data-clustering:-50-years-beyond-K-means)
 - [An introduction to ROC analysis](#An-introduction-to-ROC-analysis)
 - [An Empirical Comparison of Supervised Learning Algorithms](#An-Empirical-Comparison-of-Supervised-Learning-Algorithms)
-- [Making machine learning trustworthy](#Making-machine-learning-trustworthy)
+- [Making machine learning trustworthy](#8.-Making-machine-learning-trustworthy)
 
 <!--te-->
 
