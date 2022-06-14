@@ -5,17 +5,14 @@
 <!--ts-->
 
 - [Table of contents](#table-of-contents)
-- [A survey of data mining and knowledge discovery process models and methodologies](# A-survey-of-data-mining-and-knowledge-discovery-process-models-and-methodologies)
-- [With Conda](#with-conda)
-- [Optional](#optional)
-- [Usage](#usage)
-- [A quick example](#a-quick-example)
-- [Experiment Tracking with Weights and Biases](#experiment-tracking-with-weights-and-biases)
-- [Current Pretrained Models](#current-pretrained-models)
-- [Contributors ✨](#contributors-)
-- [How to Contribute](#how-to-contribute)
-- [How to Update Docs](#how-to-update-docs)
-- [Acknowledgements](#acknowledgements)
+- [A survey of data mining and knowledge discovery process models and methodologies](#a-survey-of-data-mining-and-knowledge-discovery-process-models-and-methodologies)
+- [Map-Reduce for Machine Learning on Multicore](#2.-)
+- [A Few Useful Things to Know About Machine Learning](#)
+- [A Survey of Discretization Techniques: Taxonomy and Empirical Analysis in Supervised Learning](#)
+- [Data clustering: 50 years beyond K-means](#Data clustering: 50 years beyond K-means)
+- [An introduction to ROC analysis](#An introduction to ROC analysis)
+- [An Empirical Comparison of Supervised Learning Algorithms](#An Empirical Comparison of Supervised Learning Algorithms)
+- [Making machine learning trustworthy](#Making machine learning trustworthy)
 
 <!--te-->
 
