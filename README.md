@@ -359,7 +359,6 @@ International Conference on Pattern Recognition. IEEE, 2010.
 ## An Empirical Comparison of Supervised Learning Algorithms
 [Paper](https://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml06.pdf)
 
-Review #7
 1: Since there have been a number of supervised learning methods introduced in the
 last decade there has been a need for an up-to-date (according to this time)
 comprehensive evaluation study comparing various methods at a larger scale. The main
@@ -411,6 +410,9 @@ models improve prediction performance?." Journal of affective disorders 264 (202
 
 [2] Fonseca, Pedro G., and Hugo D. Lopes. "Calibration of Machine Learning Classifiers for Probability of
 Default Modelling." arXiv preprint arXiv:1710.08901 (2017).
+
+## Making machine learning trustworthy
+[Paper](https://www.science.org/doi/10.1126/science.abi5052)
 
 
 1: Although research in the field of machine learning has advanced dramatically over
