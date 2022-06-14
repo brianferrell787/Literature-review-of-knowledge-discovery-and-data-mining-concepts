@@ -359,60 +359,58 @@ International Conference on Pattern Recognition. IEEE, 2010.
 ## An Empirical Comparison of Supervised Learning Algorithms
 [Paper](https://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml06.pdf)
 
-1: A receiver operating characteristic (ROC curve) graph is a simple plot that illustrates
-the performances of a true and false positive rate for diagnostic systems, and has been
-gaining more popularity within the machine learning and data mining research fields.
-The main motivation of this paper is to give an introduction to these graphs as well as a
-guide for using them in research in order to bring light to some of the common
-misconceptions and pitfalls seen in practice. The paper starts by giving an overview of
-ROC graphs including their space, how performances are distinguished (random vs.
-curves, relative vs. absolute scores), as well as the area under an ROC curve (AUC).
-Additionally, they briefly discuss the importance of averaging ROC curves through
-vertical averaging or threshold averaging. Finally, the authors review problems that have
-more than two classes which includes the complexities of multi-class ROC and AUC
-graphs, and interpolating multiple classifiers to get the desired outcome by using linear
-interpolation. The authors conclude that ROC graphs are a very useful and powerful tool
-for visualizing and evaluating classifiers that, if used properly, can promote and
-generate a healthier evaluation research practice.
+Review #7
+1: Since there have been a number of supervised learning methods introduced in the
+last decade there has been a need for an up-to-date (according to this time)
+comprehensive evaluation study comparing various methods at a larger scale. The main
+motivation of this paper is to present popular learning algorithms as well as inspect an
+exhaustive list of performance metrics using 10 different supervised learning methods
+such as SVMs, neural nets, logistic regression, naive bayes, random forest, etc.. The
+authors also examine the effects of calibration methods for these models by using
+Isotonic Regression and Platt Scaling. The paper starts by exploring each learning
+algorithm, as well as a review of each performance metric they are using to compare
+the models with. The study compares the algorithms on 11 binary classification
+problems, and the authors give a description of each dataset in the paper in terms of
+how they split their data, etc. The authors conclude that there is significant variability
+across the problems and metrics, and that occasionally you have the “best” models
+sometimes not performing well whereas the “worse” models randomly performing
+exceptionally well; however, for the most part the field has progressed substantially
+within the last 15 years.
 
 
-2.1: The authors claim that ROC graphs provide a richer measure of classification
-performance than accuracy, error rate, or error cost.
+2.1: The authors claim that using calibrated boosted trees was the best learning
+algorithm overall followed by Random forests.
 
 
-2.2: The authors claim that it is misleading to use the ROC graph as a way to choose
-the best classifier, because it is no different from just looking at the max accuracy.
-Without a measure of variance, there is no proper evaluation technique in comparing
-classifiers.
+2.2: The authors claim that the calibration techniques used were highly effective on the
+probability metrics from learning algorithms that also performed well on the
+ranking/ordering metrics.
 
 
-2.3: The authors claim that because ROC graphs decouple classifier performance from
-class skew and error costs, they have all the advantages over precision-recall graphs
-and lift curves.
+2.3: The authors claim that the worst models were naive bayes, logistic regression,
+decision trees, and boosted stumps.
 
 
-3: In disagreement with claim 2.3 Ozenne et. al present a simulation study considering
-different sizes of diseased and nondiseased groups. Authors claim that the ROC curve’s
-relevance is heavily debatable for rare events. They found that in uncommon and rare
-diseases, the area under the precision-recall curve (AUPRC) should be preferred
-because it summarizes the biomarker’s performance better. Although, I am not sure if
-their results are relevant to using classifiers within the machine learning and data mining
-field as opposed to these “biomarkers”. However, in agreement with claim 2.3,
-Brodersen et. al, who created over 1000 simulations comparing two models, claim that
-the precision-recall curve is a “highly imprecise” estimate of the true curve, especially in
-the case of a small sample size and class imbalance in favor of negative examples.
+3: In agreement with claim 2.1, Sanderson et. al present a study on predicting suicide
+by comparing calibrated boosted trees, recurrent neural networks, and convolutional
+neural networks. Their dataset comprised of almost 4000 examples of deaths by suicide
+and a little over 35,000 examples of deaths that did not happen by suicide. It was found
+that the optimal method was the calibrated boosted trees; in addition, the authors noted
+that this model was also the least computationally expensive one out of the three model
+types. Additionally, in agreement with claim 2.1, Fonseca et. al present a study where
+they cover best practices in regards to calibration techniques for binary classification
+problems, as well as compare three supervised learning methods on real world credit
+scoring data. The authors found that on most datasets, the Random Forest
+outperformed the other models after calibration.
 
 
-[1] Ozenne, Brice, Fabien Subtil, and Delphine Maucort-Boulch. "The precision–recall curve overcame the
-optimism of the receiver operating characteristic curve in rare diseases." Journal of clinical epidemiology
-68.8 (2015): 855-859.
+[1] Sanderson, Michael, et al. "Predicting death by suicide using administrative health care system data:
+Can recurrent neural network, one-dimensional convolutional neural network, and gradient boosted trees
+models improve prediction performance?." Journal of affective disorders 264 (2020): 107-114.
 
 
-[2] Brodersen, Kay Henning, et al. "The binormal assumption on precision-recall curves." 2010 20th
-International Conference on Pattern Recognition. IEEE, 2010.
-
-## Making machine learning trustworthy
-[Paper](https://www.science.org/doi/10.1126/science.abi5052)
+[2] Fonseca, Pedro G., and Hugo D. Lopes. "Calibration of Machine Learning Classifiers for Probability of
+Default Modelling." arXiv preprint arXiv:1710.08901 (2017).
 
 
 1: Although research in the field of machine learning has advanced dramatically over
