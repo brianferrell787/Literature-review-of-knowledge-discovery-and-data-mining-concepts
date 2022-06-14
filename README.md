@@ -115,6 +115,14 @@ transmission overhead.
 [1] Al-Amin, Sikder Tahsin, and Carlos Ordonez. "Efficient machine learning on data science languages with parallel
 data summarization." Data & Knowledge Engineering 136 (2021): 101930.
 
+
+[2] Pu, Lingjun, et al. "Cost-efficient and Skew-aware Data Scheduling for Incremental Learning in 5G Networks."
+IEEE Journal on Selected Areas in Communications (2021)
+
+
+## 3. A Few Useful Things to Know About Machine Learning
+[Paper](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
+
 1: The main motivation of this article is to summarize sound wisdom and beliefs
 surrounding machine learning. The author gives 12 insights and lessons on machine
 learning algorithms concerning their pitfalls, things we should focus on, as well as
@@ -169,12 +177,9 @@ conference on science in information technology (ICSITech). IEEE, 2019.
 and transfer learning for plant disease classification." Computers and electronics in agriculture 153
 (2018): 46-53.
 
-[2] Pu, Lingjun, et al. "Cost-efficient and Skew-aware Data Scheduling for Incremental Learning in 5G Networks."
-IEEE Journal on Selected Areas in Communications (2021)
 
-
-## 3. A Few Useful Things to Know About Machine Learning
-[Paper](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
+## 4. A Survey of Discretization Techniques: Taxonomy and Empirical Analysis in Supervised Learning
+[Paper](https://ieeexplore.ieee.org/document/6152258)
 
 1: Discretization techniques transform continuous/numerical attributes to
 discrete/nominal ones in order to represent the data in a simplified concise manner. The
@@ -230,10 +235,6 @@ International Conference on Learning and Intelligent Optimization. Springer, Cha
 
 [2] Thaiphan, Rattayagon, and Thimaporn Phetkaew. "Comparative analysis of discretization algorithms on decision
 tree." 2018 IEEE/ACIS 17th International Conference on Computer and Information Science (ICIS). IEEE, 2018.
-
-## 4. A Survey of Discretization Techniques: Taxonomy and Empirical Analysis in Supervised Learning
-[Paper](https://ieeexplore.ieee.org/document/6152258)
-
 
 ## 5. Data clustering: 50 years beyond K-means
 [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0167865509002323)
