@@ -1,4 +1,4 @@
-# Literature-review-of-knowledge-discovery-and-data-mining-concepts
+# Survey-of-data-mining-concepts
 
 
 
@@ -239,12 +239,210 @@ tree." 2018 IEEE/ACIS 17th International Conference on Computer and Information 
 ## 5. Data clustering: 50 years beyond K-means
 [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0167865509002323)
 
+1: Clustering methods are unsupervised techniques that wish to group data according to
+their measured distance and/or perceived similarities in order to be understood,
+processed, and summarized. The main motivation of this paper is to give an overview of
+these methods as well as the major challenges and issues associated with designing
+such algorithms. The authors also bring light to the emerging methods in this field as
+well as their useful research direction. The paper starts by giving a historical overview
+and purpose of clustering, followed by a review of the most well-known hierarchical
+algorithms of them all (k-means clustering) along with the parameters, computations,
+and extensions involved. Additionally, they briefly discuss major approaches to
+clustering methods considering there are thousands of these algorithms. Finally, the
+authors review the difficulties and challenges with data representation, the purpose of
+grouping, the number of clusters to use and their validity as well as any up and coming
+trends that are emerging in this field. The authors conclude that there is a need for
+benchmark data for the research community to test and evaluate, a clustering’s purpose
+for its respective application, stable and consistent solutions, and more semi-supervised
+clustering techniques.
+
+
+2.1: Authors claim that there is no single clustering algorithm that has been shown to
+dominate the rest across all problem sets and domains.
+
+
+2.2: Authors claim that in most applications, it’s not necessarily about picking the “best”
+clustering algorithm that matters most but rather about the feature extraction methods
+that identify the underlying clustering structure of the data.
+
+
+2.3: Authors claim that objects need to have a natural representation and not just be a
+pooled feature vector of components, otherwise it may result in poor clustering
+performance.
+
+
+3: In agreement with claim 2.1, Morissette et. al present a tutorial on the k-means
+clustering technique through three different algorithms. Authors conclude that no
+clustering algorithm is the best, and that whatever choice you make as the optimal
+algorithm depends solely on the characteristics of the dataset (size, number of variables
+in the cases). Additionally, Jain et. al are similarly in agreement with claim 2.1 and
+suggest working out multiple clustering algorithms that are different in order to gain the
+best understanding possible about the dataset.
+
+
+[1] Morissette, Laurence, and Sylvain Chartier. "The k-means clustering technique: General considerations
+and implementation in Mathematica." Tutorials in Quantitative Methods for Psychology 9.1 (2013): 15-24.
+
+
+[2] Jain, Anil K., Robert P. W. Duin, and Jianchang Mao. "Statistical pattern recognition: A review." IEEE
+Transactions on pattern analysis and machine intelligence 22.1 (2000): 4-37.
+
 
 ## 6. An introduction to ROC analysis
 [Paper](https://www.sciencedirect.com/science/article/pii/S016786550500303X?casa_token=UDNHd1Fhnw4AAAAA:hoE5W_S_DlsrabMgWZYsGEpvzIcwIgWUi28xcnF483YAIon6Dh0Ql46bob74QOz3JhVjx45z)
 
+1: A receiver operating characteristic (ROC curve) graph is a simple plot that illustrates
+the performances of a true and false positive rate for diagnostic systems, and has been
+gaining more popularity within the machine learning and data mining research fields.
+The main motivation of this paper is to give an introduction to these graphs as well as a
+guide for using them in research in order to bring light to some of the common
+misconceptions and pitfalls seen in practice. The paper starts by giving an overview of
+ROC graphs including their space, how performances are distinguished (random vs.
+curves, relative vs. absolute scores), as well as the area under an ROC curve (AUC).
+Additionally, they briefly discuss the importance of averaging ROC curves through
+vertical averaging or threshold averaging. Finally, the authors review problems that have
+more than two classes which includes the complexities of multi-class ROC and AUC
+graphs, and interpolating multiple classifiers to get the desired outcome by using linear
+interpolation. The authors conclude that ROC graphs are a very useful and powerful tool
+for visualizing and evaluating classifiers that, if used properly, can promote and
+generate a healthier evaluation research practice.
+
+
+2.1: The authors claim that ROC graphs provide a richer measure of classification
+performance than accuracy, error rate, or error cost.
+
+
+2.2: The authors claim that it is misleading to use the ROC graph as a way to choose
+the best classifier, because it is no different from just looking at the max accuracy.
+Without a measure of variance, there is no proper evaluation technique in comparing
+classifiers.
+
+
+2.3: The authors claim that because ROC graphs decouple classifier performance from
+class skew and error costs, they have all the advantages over precision-recall graphs
+and lift curves.
+
+
+3: In disagreement with claim 2.3 Ozenne et. al present a simulation study considering
+different sizes of diseased and nondiseased groups. Authors claim that the ROC curve’s
+relevance is heavily debatable for rare events. They found that in uncommon and rare
+diseases, the area under the precision-recall curve (AUPRC) should be preferred
+because it summarizes the biomarker’s performance better. Although, I am not sure if
+their results are relevant to using classifiers within the machine learning and data mining
+field as opposed to these “biomarkers”. However, in agreement with claim 2.3,
+Brodersen et. al, who created over 1000 simulations comparing two models, claim that
+the precision-recall curve is a “highly imprecise” estimate of the true curve, especially in
+the case of a small sample size and class imbalance in favor of negative examples.
+
+
+[1] Ozenne, Brice, Fabien Subtil, and Delphine Maucort-Boulch. "The precision–recall curve overcame the
+optimism of the receiver operating characteristic curve in rare diseases." Journal of clinical epidemiology
+68.8 (2015): 855-859.
+
+
+[2] Brodersen, Kay Henning, et al. "The binormal assumption on precision-recall curves." 2010 20th
+International Conference on Pattern Recognition. IEEE, 2010.
+
 ## 7. An Empirical Comparison of Supervised Learning Algorithms
 [Paper](https://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml06.pdf)
 
+1: A receiver operating characteristic (ROC curve) graph is a simple plot that illustrates
+the performances of a true and false positive rate for diagnostic systems, and has been
+gaining more popularity within the machine learning and data mining research fields.
+The main motivation of this paper is to give an introduction to these graphs as well as a
+guide for using them in research in order to bring light to some of the common
+misconceptions and pitfalls seen in practice. The paper starts by giving an overview of
+ROC graphs including their space, how performances are distinguished (random vs.
+curves, relative vs. absolute scores), as well as the area under an ROC curve (AUC).
+Additionally, they briefly discuss the importance of averaging ROC curves through
+vertical averaging or threshold averaging. Finally, the authors review problems that have
+more than two classes which includes the complexities of multi-class ROC and AUC
+graphs, and interpolating multiple classifiers to get the desired outcome by using linear
+interpolation. The authors conclude that ROC graphs are a very useful and powerful tool
+for visualizing and evaluating classifiers that, if used properly, can promote and
+generate a healthier evaluation research practice.
+
+
+2.1: The authors claim that ROC graphs provide a richer measure of classification
+performance than accuracy, error rate, or error cost.
+
+
+2.2: The authors claim that it is misleading to use the ROC graph as a way to choose
+the best classifier, because it is no different from just looking at the max accuracy.
+Without a measure of variance, there is no proper evaluation technique in comparing
+classifiers.
+
+
+2.3: The authors claim that because ROC graphs decouple classifier performance from
+class skew and error costs, they have all the advantages over precision-recall graphs
+and lift curves.
+
+
+3: In disagreement with claim 2.3 Ozenne et. al present a simulation study considering
+different sizes of diseased and nondiseased groups. Authors claim that the ROC curve’s
+relevance is heavily debatable for rare events. They found that in uncommon and rare
+diseases, the area under the precision-recall curve (AUPRC) should be preferred
+because it summarizes the biomarker’s performance better. Although, I am not sure if
+their results are relevant to using classifiers within the machine learning and data mining
+field as opposed to these “biomarkers”. However, in agreement with claim 2.3,
+Brodersen et. al, who created over 1000 simulations comparing two models, claim that
+the precision-recall curve is a “highly imprecise” estimate of the true curve, especially in
+the case of a small sample size and class imbalance in favor of negative examples.
+
+
+[1] Ozenne, Brice, Fabien Subtil, and Delphine Maucort-Boulch. "The precision–recall curve overcame the
+optimism of the receiver operating characteristic curve in rare diseases." Journal of clinical epidemiology
+68.8 (2015): 855-859.
+
+
+[2] Brodersen, Kay Henning, et al. "The binormal assumption on precision-recall curves." 2010 20th
+International Conference on Pattern Recognition. IEEE, 2010.
+
 ## 8. Making machine learning trustworthy
 [Paper](https://www.science.org/doi/10.1126/science.abi5052)
+
+
+1: Although research in the field of machine learning has advanced dramatically over
+the years, there is still a need for improved safety, security, transparency, and fairness
+when implementing these models in actual practice, especially when it comes to
+powering high-stake applications that affect human beings. The main motivation of this
+article is to provide an overview of adversarial threats to machine learning which helps
+ensure models are not just “memorizing” certain parts of their training data, and can be
+confident/not easily be fooled when there are slight changes in input data. The paper
+starts by exploring how easy it can be to throw a model prediction off by giving it slightly
+manipulated data to make it seem like it is something completely different. In addition,
+the author also mentions strategies that can be used to improve this issue, issues of
+biases when it comes to labeling datasets, and other pitfalls of ML in order to
+counterattack the blindspots that come with ML model configuring. The author
+concludes that as a society we need to embrace these ethical norms and that there is a
+dire need for insights from users across all domains when it comes to not only using
+these ML models but trusting them.
+
+
+2.1: The authors claim that ML models can easily be victims of malicious attacks during
+training and deployment.
+
+
+2.2: Authors claim that the most important advancement for ML models now is whether
+or not it can be protected against several types of adversarial attacks.
+
+
+2.3: Authors claim that there is a lack of broadly accepted definitions, transferability, and
+formulations of adversarial robustness and privacy-preserving ML.
+
+
+3: In agreement with claim 2.1, Garg et. al and Li et. al both present attack methods for
+generating adversarial examples for NLP models by inserting contextual manipulations
+derived from the BERT language model. Authors claim that recent studies have easily
+exposed ML model’s vulnerabilities, and that these are easily identifiable by humans.
+Both authors conclude that small perturbations in original inputs can mislead neural
+networks to incorrect predictions. In addition, as a bonus they agree with claim 2.2 that
+it is essential to explore these advancements to ensure reliability and robustness.
+
+
+[1] Garg, Siddhant, and Goutham Ramakrishnan. "Bae: Bert-based adversarial examples for
+text classification." arXiv preprint arXiv:2004.01970 (2020).
+
+
+[2] Li, Linyang, et al. "Bert-attack: Adversarial attack against bert using bert." arXiv preprint
+arXiv:2004.09984 (2020).
